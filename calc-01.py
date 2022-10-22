@@ -28,7 +28,6 @@ def myCalc(var_a, var_b, op):
 
 
 print('welcome to this calculator, press ctrl+C to exit')
-
 while True:
 
     var_a = input('enter the first number ')
