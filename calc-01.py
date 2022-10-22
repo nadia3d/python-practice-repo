@@ -39,7 +39,7 @@ while True:
         print('variable not supported, please only use decimal numbers')
     elif op not in opList:
         print('this operator is not supported')
-    elif isZero(var_b):
+    elif op =='/' and isZero(var_b):
         print('division by zero is not supported')
     else:
         result = round(myCalc(var_a, var_b, op), 3)
